@@ -1,0 +1,24 @@
+画像の出典
+==========================
+
+(仮画像:なし。差し替え必須の画像はありません)
+
+hero_staff.png      AI生成
+problem_01.jpg      AI生成
+problem_02.jpg      AI生成
+problem_03.jpg      AI生成
+before.png          AI生成
+after.png           AI生成
+strength_01.png     AI生成
+strength_02.png     AI生成
+strength_03.png     AI生成
+menu_mailmag.png    AI生成
+cta_staff.png       AI生成
+ogp.jpg             AI生成画像(hero_staff.png)とロゴから作成
+voice_01.png        持ち込み:現行LP(infotop.jp/html/advertishing/form/ad_application/)の box04_img01.png
+voice_02.png        持ち込み:現行LP の box04_img02.png
+voice_03.png        持ち込み:現行LP の box04_img03.png
+voice_04.png        持ち込み:現行LP の box04_img04.png
+voice_05.png        持ち込み:現行LP の box04_img04.png(現行LPと同じく voice_04 と同一画像)
+media_cover.jpg     持ち込み:媒体資料PDF(infotop-media.pdf)の1ページ目
+logo.png            持ち込み:支給ロゴ(白背景を透過処理)
