@@ -1,0 +1,22 @@
+画像クレジット
+==============
+差し替え必須の仮画像: なし(全て最終画像)
+
+images/logo.png ........................ 持込(ユーザー支給)
+images/banner_worries.gif .............. 持込(ユーザー支給)
+images/fv_person.png ................... AI生成
+images/fv_person_baseball.png .......... AI生成
+images/fv_person_soccer.png ............ AI生成
+images/fv_person_golf.png .............. AI生成
+images/fv_person_badminton.png ......... AI生成
+images/thumb_baseball_01.jpg ........... AI生成
+images/thumb_baseball_02.jpg ........... AI生成
+images/thumb_soccer_01.jpg ............. AI生成
+images/thumb_golf_01.jpg ............... AI生成
+images/thumb_golf_02.jpg ............... AI生成
+images/thumb_golf_03.jpg ............... AI生成
+images/thumb_golf_04.jpg ............... AI生成
+images/thumb_badminton_01.jpg .......... AI生成
+
+見出し「スポーツ特集」はテキスト(画像ではありません)。
+フォント: Noto Sans JP / Anton / Oswald (Google Fonts, SIL Open Font License)
