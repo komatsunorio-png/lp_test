@@ -364,8 +364,8 @@ button, input, select, textarea { font: inherit; }
 /* ---------- 15. タブレット・SP ---------- */
 @media (max-width: 1200px) {
   .panel__inner, .section, .cta-band__inner, .cta-staff__inner { padding-left: 56px; padding-right: 56px; }
-  .hero__grid { padding-left: 76px; padding-right: 40px; }
-  .hero__h1-main { font-size: clamp(64px, 7.4vw, 92px); }
+  .hero__grid { padding-left: 76px; padding-right: 40px; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); }
+  .hero__h1-main { font-size: clamp(56px, 6.3vw, 92px); }
   .hero__h1-sub { font-size: clamp(34px, 3.8vw, 46px); }
   .hero__h1-end { font-size: clamp(44px, 5vw, 60px); }
   .menu__grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
