@@ -451,17 +451,17 @@ ul { padding: 0; list-style: none; }
   .hero__circle--1 { --x: -50; --y: 50;  --w: 270; }
   .hero__circle--2 { --x: 240; --y: 200; --w: 220; }
 
-  .hero__item--landmarks  { --x: 22;  --y: 62;  --w: 118; }
-  .hero__item--book       { --x: 2;   --y: 128; --w: 200; }
+  .hero__item--landmarks  { --x: 30;  --y: 60;  --w: 122; }
+  .hero__item--book       { --x: 10;  --y: 128; --w: 214; }
   .hero__item--globe      { --x: 0;   --y: 96;  --w: 54; }
-  .hero__item--airplane   { --x: 112; --y: 50;  --w: 120; }
-  .hero__item--teacup     { --x: 138; --y: 120; --w: 58; }
+  .hero__item--airplane   { --x: 124; --y: 50;  --w: 124; }
+  .hero__item--teacup     { --x: 152; --y: 118; --w: 60; }
   .hero__item--headphones { --x: 2;   --y: 200; --w: 52; }
-  .hero__item--notebook   { --x: 140; --y: 200; --w: 62; }
+  .hero__item--notebook   { --x: 160; --y: 204; --w: 64; }
 
   /* 人物はバストアップ */
   .hero__person {
-    --x: 128; --y: 96;
+    --x: 172; --y: 96;
     width: calc(210 * var(--u));
     height: calc(330 * var(--u));
     overflow: hidden;
@@ -472,15 +472,15 @@ ul { padding: 0; list-style: none; }
   .bubble--hello    { --x: 236; --y: 26;  --fs: 13; }
   .bubble--annyeong { --x: 60;  --y: 106; --fs: 11; border-radius: 999px 999px 6px 999px; }
   .bubble--bonjour  { --x: 64;  --y: 226; --fs: 12; --r: -7; border-radius: 999px 999px 6px 999px; }
-  .bubble--nihao    { --x: 316; --y: 300; --fs: 12; --r: 6; }
+  .bubble--nihao    { --x: 330; --y: 312; --fs: 12; --r: 6; }
   .bubble--hola,
   .bubble--ciao { display: none; }
 
   .hero__catch {
-    --x: 336; --y: 54;
+    --x: 342; --y: 54;
     padding: calc(10 * var(--u)) calc(6 * var(--u));
     border-radius: calc(12 * var(--u));
-    font-size: calc(13 * var(--u));
+    font-size: calc(12 * var(--u));
     letter-spacing: .08em;
   }
 
