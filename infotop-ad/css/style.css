@@ -247,7 +247,11 @@ button, input, select, textarea { font: inherit; }
 .num-card--a { grid-column: span 5; padding: 40px; border-radius: 36px; }
 .num-card--b { grid-column: span 7; padding: 40px; border-radius: 36px; }
 .num-card--a dd, .num-card--b dd { font-size: 30px; }
-.num-card--a .num { font-size: 150px; letter-spacing: -.04em; }
+.num-card--a .num { font-size: 120px; letter-spacing: -.04em; }
+.num-card--a { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; column-gap: 16px; padding: 40px 32px; }
+.num-card--a dt { flex-basis: 100%; }
+.num-card--a dd:first-of-type { white-space: nowrap; }
+.num-card--a .num-card__msg { flex: 0 1 140px; margin: 0 0 8px; font-size: 13px; font-weight: 700; line-height: 1.8; color: var(--white); white-space: nowrap; }
 .num-card--b .num { font-size: 120px; }
 .num-card--c { grid-column: span 4; }
 .num-card--blue { background: linear-gradient(150deg, #1C6FF0, #2E9BFF); border: 0; }
@@ -482,6 +486,9 @@ button, input, select, textarea { font: inherit; }
   .num-card .num { font-size: 40px; }
   .num-card--a dd { font-size: 22px; }
   .num-card--a .num { font-size: 84px; }
+  .num-card--a { column-gap: 12px; }
+  .num-card--a { padding: 22px; }
+  .num-card--a .num-card__msg { flex-basis: 125px; margin-bottom: 6px; font-size: 12px; line-height: 1.75; }
   .num-card--b dd { font-size: 18px; }
   .num-card--b .num { font-size: 52px; }
   .num-card--wide-sp dd { margin: 0; font-size: 16px; }
