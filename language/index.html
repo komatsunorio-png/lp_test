@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<!--
+  語学特集 | インフォトップ
+  商品の追加・削除・並べ替えなど、更新の手順は README.txt を参照してください。
+-->
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>語学特集 | インフォトップ</title>
+<meta name="description" content="分かる、話せる、楽しい！そんな自分になれるチャンス。今よりもっと輝く自分になって、世界へ近づく道がここにあります。">
+<meta property="og:title" content="語学特集 | インフォトップ">
+<meta property="og:description" content="分かる、話せる、楽しい！そんな自分になれるチャンス。今よりもっと輝く自分になって、世界へ近づく道がここにあります。">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Mochiy+Pop+One&family=Zen+Maru+Gothic:wght@500;700;900&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ================= ヘッダー(ロゴのみ) ================= -->
+<header class="site-header">
+  <a class="site-header__logo" href="https://www.infotop.jp/" target="_blank" rel="noopener">
+    <img src="images/logo.png" alt="infotop(インフォトップ)" width="244" height="74">
+  </a>
+</header>
+
+<main>
+
+  <!-- ================= ヒーロー ================= -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero__stage">
+      <span class="hero__circle hero__circle--1" aria-hidden="true"></span>
+      <span class="hero__circle hero__circle--2" aria-hidden="true"></span>
+
+      <!-- 本からあふれ出す小物(装飾) -->
+      <img class="hero__item hero__item--landmarks" src="images/obj_landmarks.png" alt="" aria-hidden="true">
+      <img class="hero__item hero__item--book" src="images/fv_book.png" alt="" aria-hidden="true">
+      <img class="hero__item hero__item--globe" src="images/obj_globe.png" alt="" aria-hidden="true">
+      <img class="hero__item hero__item--airplane" src="images/obj_airplane.png" alt="" aria-hidden="true">
+      <img class="hero__item hero__item--teacup" src="images/obj_teacup.png" alt="" aria-hidden="true">
+      <img class="hero__item hero__item--headphones" src="images/obj_headphones.png" alt="" aria-hidden="true">
+      <img class="hero__item hero__item--notebook" src="images/obj_notebook.png" alt="" aria-hidden="true">
+
+      <div class="hero__person">
+        <img src="images/fv_person.png" alt="笑顔で手を振る女性" width="425" height="1173">
+      </div>
+
+      <!-- 各国語のあいさつ(装飾) -->
+      <ul class="hero__bubbles" aria-hidden="true">
+        <li class="bubble bubble--hello" lang="en">Hello!</li>
+        <li class="bubble bubble--bonjour" lang="fr">Bonjour</li>
+        <li class="bubble bubble--annyeong bubble--yellow" lang="ko">안녕하세요</li>
+        <li class="bubble bubble--hola" lang="es">¡Hola!</li>
+        <li class="bubble bubble--nihao bubble--yellow" lang="zh">你好</li>
+        <li class="bubble bubble--ciao" lang="it">Ciao</li>
+      </ul>
+
+      <p class="hero__catch">なりたいあなたに、<br>近づくために。</p>
+
+      <h1 class="hero-title" id="hero-title">
+        <span class="hero-title__sub" lang="en" aria-hidden="true">LANGUAGE SPECIAL</span>
+        <span class="hero-title__tiles" aria-label="語学特集">
+          <span class="hero-title__tile hero-title__tile--1" aria-hidden="true">語</span>
+          <span class="hero-title__tile hero-title__tile--2" aria-hidden="true">学</span>
+          <span class="hero-title__tile hero-title__tile--3" aria-hidden="true">特</span>
+          <span class="hero-title__tile hero-title__tile--4" aria-hidden="true">集</span>
+        </span>
+        <span class="hero-title__ribbon" lang="en">Let’s talk with the world!</span>
+      </h1>
+    </div>
+    <svg class="wave wave--hero" viewBox="0 0 1440 140" preserveAspectRatio="none" aria-hidden="true"><path d="M0,70 C240,150 480,10 760,60 C1040,110 1240,20 1440,60 L1440,140 L0,140 Z"/></svg>
+  </section>
+
+  <!-- ================= リード ================= -->
+  <section class="lead">
+    <p class="lead__text"><mark>分かる、話せる、楽しい！</mark>そんな自分になれるチャンス。<br>今よりもっと輝く自分になって、世界へ近づく道がここにあります。</p>
+  </section>
+
+  <!-- ==================================================
+       ジャンル:英語 ここから
+       ================================================== -->
+  <section class="genre genre--english" id="english" aria-labelledby="genre-english-title">
+    <svg class="wave wave--genre" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0,90 C300,10 620,120 920,60 C1140,20 1300,40 1440,10 L1440,120 L0,120 Z"/></svg>
+    <img class="genre__deco genre__deco--english" src="images/deco_english.png" alt="" aria-hidden="true">
+
+    <div class="genre__inner">
+      <div class="genre__head">
+        <p class="genre__en" lang="en" aria-hidden="true">English</p>
+        <h2 class="genre__label" id="genre-english-title">英語</h2>
+      </div>
+      <!-- 仮文言:公開前に要確認 -->
+      <p class="genre__intro">旅先で道を聞く、洋画を字幕なしで楽しむ、海外の最新情報をそのまま読む。英語ができると、毎日の「わかる」が一気に増えます。仕事では任される業務や転職の選択肢が広がり、子どものうちから触れておけば耳が慣れて、学校の英語にも自信が持てます。</p>
+
+      <ul class="product-list product-list--stagger">
+
+        <!-- ▼▼▼ 商品 1 ここから -->
+        <li class="product-list__item">
+          <article class="product">
+            <figure class="product__thumb"><img src="images/thumb_english01.jpg" alt="ヘッドホンで英語を聞きながらメモを取る男性" width="1120" height="630" loading="lazy"></figure>
+            <h3 class="product__name"><a href="https://www.infotop.jp/click.php?aid=225890&amp;iid=89474" target="_blank" rel="noopener">INSTALL ENGLISH~90日最新英語脳開発プログラム~</a></h3>
+            <p class="product__seller">販売者:株式会社インフォプロモーション</p>
+            <p class="product__price">¥29,800</p>
+            <p class="product__desc">『第二母国語脳アプローチ』とは？</p>
+            <a class="btn" href="https://www.infotop.jp/click.php?aid=225890&amp;iid=89474" target="_blank" rel="noopener">詳しく見る</a>
+          </article>
+        </li>
+        <!-- ▲▲▲ 商品 1 ここまで -->
+
+        <!-- ▼▼▼ 商品 2 ここから -->
+        <li class="product-list__item">
+          <article class="product">
+            <figure class="product__thumb"><img src="images/thumb_english02.jpg" alt="オンライン英会話を楽しむ女性" width="1120" height="630" loading="lazy"></figure>
+            <h3 class="product__name"><a href="https://www.infotop.jp/click.php?aid=225890&amp;iid=75087" target="_blank" rel="noopener">hiro式・オンライン英会話スクール～自宅留学のすすめ～</a></h3>
+            <p class="product__seller">販売者:大石 晋裕</p>
+            <p class="product__price">¥49,800</p>
+            <p class="product__desc">海外生活7年の経験から生み出された、最先端・英会話上達法「自宅留学」がついに公開！</p>
+            <a class="btn" href="https://www.infotop.jp/click.php?aid=225890&amp;iid=75087" target="_blank" rel="noopener">詳しく見る</a>
+          </article>
+        </li>
+        <!-- ▲▲▲ 商品 2 ここまで -->
+
+        <!-- ▼▼▼ 商品 3 ここから -->
+        <li class="product-list__item">
+          <article class="product">
+            <figure class="product__thumb"><img src="images/thumb_english03.jpg" alt="絵カードで遊ぶ親子" width="1120" height="630" loading="lazy"></figure>
+            <h3 class="product__name"><a href="https://www.infotop.jp/click.php?aid=225890&amp;iid=77705" target="_blank" rel="noopener">英語絵カードDX</a></h3>
+            <p class="product__seller">販売者:中村 彰秀</p>
+            <p class="product__price">¥4,400</p>
+            <p class="product__desc">お子様の英語教育に最適です！</p>
+            <a class="btn" href="https://www.infotop.jp/click.php?aid=225890&amp;iid=77705" target="_blank" rel="noopener">詳しく見る</a>
+          </article>
+        </li>
+        <!-- ▲▲▲ 商品 3 ここまで -->
+
+      </ul>
+      <img class="genre__deco genre__deco--english02" src="images/deco_english02.png" alt="" aria-hidden="true">
+    </div>
+  </section>
+  <!-- ジャンル:英語 ここまで ================================ -->
+
+  <!-- ==================================================
+       ジャンル:アジアの言語 ここから
+       ================================================== -->
+  <section class="genre genre--asia genre--split" id="asia" aria-labelledby="genre-asia-title">
+    <svg class="wave wave--genre" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0,20 C200,40 360,110 640,80 C920,50 1100,0 1440,70 L1440,120 L0,120 Z"/></svg>
+    <img class="genre__deco genre__deco--asia" src="images/deco_asia.png" alt="" aria-hidden="true">
+
+    <div class="genre__inner">
+      <div class="genre__text">
+        <div class="genre__head genre__head--stack">
+          <h2 class="genre__label" id="genre-asia-title">アジアの言語</h2>
+          <p class="genre__en" lang="en" aria-hidden="true">Asian<br>Languages</p>
+        </div>
+        <!-- 仮文言:公開前に要確認 -->
+        <p class="genre__intro">旅行先で現地の言葉をひと言話すだけで、相手の笑顔がぐっと近くなります。日本語と語順や発音が近い言語も多く、はじめての外国語としても入りやすいのが魅力。話せる人が少ない言語なら、仕事や交流の場で「頼られる人」になれます。</p>
+      </div>
+
+      <ul class="product-list product-list--single">
+
+        <!-- ▼▼▼ 商品 4 ここから -->
+        <li class="product-list__item">
+          <article class="product">
+            <figure class="product__thumb"><img src="images/thumb_asia01.jpg" alt="茶畑を望む窓辺で書き取りをする女性" width="1120" height="630" loading="lazy"></figure>
+            <h3 class="product__name"><a href="https://www.infotop.jp/click.php?aid=225890&amp;iid=65098" target="_blank" rel="noopener">よみ・かきから始めるシンハラ語</a></h3>
+            <p class="product__seller">販売者:伊藤 佳子</p>
+            <p class="product__price">¥8,700</p>
+            <p class="product__desc">シンハラ語の基礎が１カ月でできあがる！</p>
+            <a class="btn" href="https://www.infotop.jp/click.php?aid=225890&amp;iid=65098" target="_blank" rel="noopener">詳しく見る</a>
+          </article>
+        </li>
+        <!-- ▲▲▲ 商品 4 ここまで -->
+
+        <!-- 旧ページで非表示だった商品(コメントアウトのまま保持)
+        ▼▼▼ 商品 5 ここから
+        <li class="product-list__item">
+          <article class="product">
+            <figure class="product__thumb"><img src="images/thumb_asia02.jpg" alt="" width="1120" height="630" loading="lazy"></figure>  仮画像(差し替え必須)
+            <h3 class="product__name"><a href="https://www.infotop.jp/click.php?aid=225890&amp;iid=67289" target="_blank" rel="noopener">3分ドラマで覚える!!らくらく韓国語</a></h3>
+            <p class="product__seller">販売者:有限会社Digital Fusion</p>
+            <p class="product__price">¥9,900</p>
+            <p class="product__desc">韓国語について全く知らない初心者であっても、韓国語をマスターするまで導きます。</p>
+            <a class="btn" href="https://www.infotop.jp/click.php?aid=225890&amp;iid=67289" target="_blank" rel="noopener">詳しく見る</a>
+          </article>
+        </li>
+        ▲▲▲ 商品 5 ここまで
+        -->
+
+      </ul>
+    </div>
+  </section>
+  <!-- ジャンル:アジアの言語 ここまで ======================== -->
+
+  <!-- ==================================================
+       ジャンル:手話 ここから
+       ================================================== -->
+  <section class="genre genre--sign genre--split genre--reverse" id="sign" aria-labelledby="genre-sign-title">
+    <svg class="wave wave--genre" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0,60 C260,120 520,0 820,40 C1100,80 1260,110 1440,30 L1440,120 L0,120 Z"/></svg>
+    <img class="genre__deco genre__deco--sign" src="images/deco_sign.png" alt="" aria-hidden="true">
+
+    <div class="genre__inner">
+      <div class="genre__text">
+        <div class="genre__head genre__head--stack">
+          <h2 class="genre__label" id="genre-sign-title">手話</h2>
+          <p class="genre__en" lang="en" aria-hidden="true">Sign<br>Language</p>
+        </div>
+        <!-- 仮文言:公開前に要確認 -->
+        <p class="genre__intro">耳の聞こえない人・聞こえにくい人と、通訳なしで直接気持ちを伝え合えるようになります。表情や身ぶりも使う言語なので、声が届かない場所やにぎやかな場所でも会話できるのが強み。検定で力を形にでき、職場やボランティアでも活かせます。</p>
+      </div>
+
+      <ul class="product-list product-list--single">
+
+        <!-- ▼▼▼ 商品 6 ここから -->
+        <li class="product-list__item">
+          <article class="product">
+            <figure class="product__thumb"><img src="images/thumb_sign01.jpg" alt="手話で会話する2人の女性" width="1120" height="630" loading="lazy"></figure>
+            <h3 class="product__name"><a href="https://www.infotop.jp/click.php?aid=225890&amp;iid=58004" target="_blank" rel="noopener">ワンステップ手話講座２</a></h3>
+            <p class="product__seller">販売者:株式会社 ダーザイン</p>
+            <p class="product__price">¥21,780</p>
+            <p class="product__desc">手話検定3級レベルに対応！</p>
+            <a class="btn" href="https://www.infotop.jp/click.php?aid=225890&amp;iid=58004" target="_blank" rel="noopener">詳しく見る</a>
+          </article>
+        </li>
+        <!-- ▲▲▲ 商品 6 ここまで -->
+
+      </ul>
+    </div>
+
+    <!-- ================= 関連特集バナー ================= -->
+    <aside class="related" aria-label="関連特集">
+      <!--<a href="https://love-qa.com/wp/" target="_blank"><img src="https://www.infotop.jp/html/ad/slideAd201308/images/lovewp_600_120.gif" alt="恋愛お悩みQ&A"></a>-->
+      <a class="related__link" href="https://www.infotop.jp/html/cmp/category_feature/health_problems/" target="_blank" rel="noopener">
+        <img src="images/bnr_health_problems.gif" alt="お悩みレスキュー 〜あなたのお悩み解決します！〜" width="600" height="120" loading="lazy">
+      </a>
+    </aside>
+  </section>
+  <!-- ジャンル:手話 ここまで ================================ -->
+
+</main>
+
+<!-- ================= フッター(コピーライトのみ) ================= -->
+<footer class="site-footer">
+  <svg class="wave wave--footer" viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0,40 C360,0 720,60 1080,20 C1240,4 1360,10 1440,30 L1440,60 L0,60 Z"/></svg>
+  <small>© 2006 infotop Co.Ltd.</small>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+画像の出典
+================================================
+
+■ 差し替え必須(仮画像)
+  なし
+  ※ コメントアウト中の商品5(韓国語)を表示する場合は images/thumb_asia02.jpg が必要です(未作成)。
+
+■ AI生成
+  fv_person.png
+  fv_book.png
+  obj_globe.png
+  obj_landmarks.png
+  obj_airplane.png
+  obj_teacup.png
+  obj_headphones.png
+  obj_notebook.png
+  deco_english.png
+  deco_english02.png
+  deco_asia.png
+  deco_sign.png
+  thumb_english01.jpg
+  thumb_english02.jpg
+  thumb_english03.jpg
+  thumb_asia01.jpg
+  thumb_sign01.jpg
+
+■ オリジナル(支給素材)
+  logo.png                 infotop ロゴ(支給画像の背景を透明化)
+  bnr_health_problems.gif  関連特集バナー「お悩みレスキュー」(支給)
+
+■ 見出し「語学特集」
+  画像ではなく HTML/CSS で組んでいます(フォント:Mochiy Pop One / Caprasimo / Zen Maru Gothic / Noto Sans JP、Google Fonts)。
