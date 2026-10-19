@@ -1,0 +1,25 @@
+画像の出典
+==========================================================
+
+■ 差し替え必須（仮画像）
+images/icon_baseball.svg ……… 仮画像（制作時に作成した簡易アイコン）
+images/icon_soccer.svg ………… 仮画像（制作時に作成した簡易アイコン）
+images/icon_golf.svg …………… 仮画像（制作時に作成した簡易アイコン）
+images/icon_badminton.svg …… 仮画像（制作時に作成した簡易アイコン）
+
+■ 確定
+images/fv_bg_pc.jpg ………………… AI生成
+images/fv_bg_sp.jpg ………………… AI生成
+images/fv_person_baseball.png …… AI生成
+images/fv_person_soccer.png ……… AI生成
+images/fv_person_golf.png ………… AI生成
+images/fv_person_badminton.png … AI生成
+images/genre_baseball.png ………… AI生成
+images/genre_soccer.png …………… AI生成
+images/genre_golf.png ……………… AI生成
+images/genre_badminton.png ……… AI生成
+images/logo.png ……………………… オリジナル（infotopロゴ。支給データの背景を透過）
+
+■ 外部参照（ZIPには含まない）
+商品サムネイル ……… infotop.jp の商品画像（https://www.infotop.jp/img/hp_商品ID.gif 等）
+関連特集バナー ……… infotop.jp の既存バナー（health_problems_600_120.gif）
