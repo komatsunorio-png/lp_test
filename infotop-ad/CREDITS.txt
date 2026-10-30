@@ -22,3 +22,4 @@ voice_04.png        持ち込み:現行LP の box04_img04.png
 voice_05.png        持ち込み:現行LP の box04_img04.png(現行LPと同じく voice_04 と同一画像)
 media_cover.jpg     持ち込み:媒体資料PDF(infotop-media.pdf)の1ページ目
 logo.png            持ち込み:支給ロゴ(白背景を透過処理)
+favicon.ico ほか      持ち込み:支給ロゴの青い球を切り出して作成(favicon.ico / favicon-32.png / icon-192.png / apple-touch-icon.png)

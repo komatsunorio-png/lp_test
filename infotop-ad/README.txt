@@ -51,6 +51,8 @@
       media_cover.jpg  媒体資料の表紙
       logo.png         ロゴ(背景透過)
       ogp.jpg          SNSシェア用画像(1200×630)
+      favicon.ico(フォルダ直下)/ favicon-32.png / icon-192.png / apple-touch-icon.png
+                       ファビコン(ロゴの青い球を切り出したもの)
   - 画像を差し替えたら、<img> の alt(画像の説明文)も内容に合わせて書き換えてください。
 
 ■ お客様の声の追加・削除
