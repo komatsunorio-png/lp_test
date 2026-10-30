@@ -484,6 +484,9 @@ button, input, select, textarea { font: inherit; }
   .num-card dt { font-size: 11px; }
   .num-card dd { font-size: 14px; }
   .num-card .num { font-size: 40px; }
+  .num-card--c dd { white-space: nowrap; font-size: 13px; }
+  .num-card--c .num { font-size: 36px; }
+  .num-card--c { padding: 18px 14px; }
   .num-card--a dd { font-size: 22px; }
   .num-card--a .num { font-size: 84px; }
   .num-card--a { column-gap: 12px; }
