@@ -353,7 +353,10 @@ button, input, select, textarea { font: inherit; }
 .lp-form__input:focus { outline: none; border-color: var(--blue); background: var(--white); box-shadow: 0 0 0 4px rgba(28, 111, 240, .15); }
 .lp-form__select { appearance: none; -webkit-appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%231C6FF0' stroke-width='2'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 18px center; padding-right: 44px; }
 .lp-form__textarea { min-height: 150px; resize: vertical; }
-.lp-form__agree { display: flex; align-items: flex-start; gap: 12px; font-size: 14px; }
+.lp-form__agree { display: flex; align-items: flex-start; gap: 12px; font-size: 13px; }
+/* フォームの幅に余裕があるときは同意文を1行に(埋め込み先の幅で判定) */
+.lp-form { container-type: inline-size; }
+@container (min-width: 540px) { .lp-form__agree label { white-space: nowrap; } }
 .lp-form__agree input { width: 22px; height: 22px; margin: 2px 0 0; flex: none; accent-color: var(--blue); }
 .lp-form__submit { width: 100%; font-size: 20px; min-height: 72px; font-family: inherit; }
 .lp-form__note { margin-top: -6px; text-align: center; font-size: 12px; color: var(--muted); }
