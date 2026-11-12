@@ -575,3 +575,53 @@ button, input, select, textarea { font: inherit; }
   .float-cta__sub { display: flex; font-size: 13px; box-shadow: 0 4px 0 #070B22 !important; }
   .float-cta .btn:active { transform: translateY(4px); box-shadow: none !important; }
 }
+
+/* ---------- 16. 送信完了(サンクス)ページ:thanks.html ---------- */
+.page-thanks .site-header { left: calc(var(--gutter) + 56px); }
+.thanks { min-height: calc(100vh - 120px); }
+.deco-circle--thanks-a { right: -160px; top: -200px; width: 560px; height: 560px; border: 2px solid #D3E4F8; }
+.deco-circle--thanks-b { left: -120px; bottom: -180px; width: 420px; height: 420px; background: var(--light-2); }
+.thanks__inner { padding-top: 150px; }
+.thanks__head { text-align: center; }
+.thanks__check { display: inline-block; position: relative; width: 72px; height: 72px; border-radius: 50%; background: var(--blue); box-shadow: 0 12px 28px rgba(28, 111, 240, .3); }
+.thanks__check::after { content: ""; position: absolute; left: 25px; top: 18px; width: 18px; height: 30px; border-right: 4px solid var(--white); border-bottom: 4px solid var(--white); transform: rotate(45deg); }
+.thanks__eyebrow { justify-content: center; margin-top: 20px; }
+.thanks__title { margin-top: 8px; }
+.thanks__lead { margin: 20px auto 0; max-width: 720px; font-size: 15px; color: var(--text-2); }
+.thanks__docs { margin-top: 56px; }
+.thanks__docs-title { font-size: 22px; font-weight: 900; text-align: center; }
+.doc-list { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; margin-top: 28px; }
+.doc-card { display: flex; flex-direction: column; background: var(--white); border-radius: 32px; box-shadow: var(--shadow); overflow: hidden; }
+.doc-card__fig { aspect-ratio: 720 / 510; background: #EAF3FF; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+.doc-card__fig img { width: 100%; height: 100%; object-fit: cover; }
+.doc-card__fig--icon svg { width: 72px; height: 72px; fill: none; stroke: var(--blue); stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+.doc-card__body { display: flex; flex-direction: column; gap: 8px; flex: 1; padding: 24px 26px 28px; }
+.doc-card__tag { align-self: flex-start; font-size: 12px; font-weight: 700; padding: 3px 12px; border-radius: 999px; background: #EAF3FF; color: #1565D8; }
+.doc-card__title { font-size: 18px; font-weight: 900; line-height: 1.5; }
+.doc-card__text { font-size: 14px; color: var(--text-2); }
+.doc-card__btn { margin-top: auto; font-size: 16px; min-height: 54px; padding: 12px 14px 12px 22px; }
+.doc-card__btn .btn__arrow::after { transform: translateY(-2px) rotate(135deg); }
+.thanks__note { margin-top: 18px; font-size: 13px; color: var(--muted); text-align: center; }
+.thanks__foot { display: flex; align-items: center; justify-content: center; gap: 24px; margin-top: 48px; flex-wrap: wrap; }
+.thanks__tel { text-align: center; padding: 20px 36px; }
+.thanks__tel .tel-card__num { font-size: 26px; }
+
+@media (max-width: 900px) {
+  .page-thanks { padding-bottom: 0; }
+  .page-thanks .site-header { left: calc(var(--gutter) + 22px); }
+  .thanks__inner { padding-top: 96px; }
+  .thanks__check { width: 56px; height: 56px; }
+  .thanks__check::after { left: 19px; top: 13px; width: 14px; height: 24px; }
+  .thanks__lead { font-size: 13px; text-align: left; }
+  .thanks__docs { margin-top: 36px; }
+  .thanks__docs-title { font-size: 17px; }
+  .doc-list { grid-template-columns: minmax(0, 1fr); gap: 14px; margin-top: 18px; }
+  .doc-card { border-radius: 24px; }
+  .doc-card__fig { aspect-ratio: 16 / 7; }
+  .doc-card__fig--icon svg { width: 48px; height: 48px; }
+  .doc-card__body { padding: 18px 18px 20px; }
+  .doc-card__title { font-size: 16px; }
+  .doc-card__text { font-size: 13px; }
+  .thanks__note { text-align: left; font-size: 12px; }
+  .thanks__foot { flex-direction: column; align-items: stretch; gap: 12px; margin-top: 32px; }
+}

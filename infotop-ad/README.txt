@@ -8,11 +8,16 @@
      - [平日 10:00~18:00] …… お電話でのご相談の受付時間
   2. 「相談の流れ」「よくある質問」は仮テキストです。正式な文言に差し替えてください。
   3. フォームの送信先(後述「フォーム」を参照)。
-  4. canonical / og:url / og:image は GitHub Pages の確認用URLになっています。
+  4. 資料のダウンロード(送信完了ページ thanks.html と自動返信メール)
+     - リスティング広告・DM広告資料のURL(thanks.html の「▼ 資料リンク」と SETUP_mailform.txt の [ ])
+     - Mailform Pro の設定(サンクスページURL・自動返信の文面)は SETUP_mailform.txt を参照
+  5. canonical / og:url / og:image は GitHub Pages の確認用URLになっています。
      本番公開時は本番URLに書き換えてください(index.html の <head> 内)。
 
 ■ フォルダ構成
   index.html        …… ページ本体
+  thanks.html       …… 送信完了ページ(資料ダウンロード付き・noindex)
+  SETUP_mailform.txt …… 送信完了ページ・自動返信メールの設定指示書(サーバー担当者向け)
   css/style.css     …… スタイル(セクションごとに見出しコメントで区切り)
   js/main.js        …… タップ時の押し下げ対応(iOS)/ PCの追従ボタン表示制御
   images/           …… 画像(ファイル名は画像台帳と同じ)
