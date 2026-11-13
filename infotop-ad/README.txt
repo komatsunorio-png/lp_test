@@ -9,7 +9,6 @@
   2. 「相談の流れ」「よくある質問」は仮テキストです。正式な文言に差し替えてください。
   3. フォームの送信先(後述「フォーム」を参照)。
   4. 資料のダウンロード(送信完了ページ thanks.html と自動返信メール)
-     - リスティング広告・DM広告資料のURL(thanks.html の「▼ 資料リンク」と SETUP_mailform.txt の [ ])
      - Mailform Pro の設定(サンクスページURL・自動返信の文面)は SETUP_mailform.txt を参照
   5. canonical / og:url / og:image は GitHub Pages の確認用URLになっています。
      本番公開時は本番URLに書き換えてください(index.html の <head> 内)。
@@ -54,6 +53,7 @@
       cta_staff.png    CTAの女性(透過PNG)
       voice_01~05.png  お客様の声のアイコン(正方形)
       media_cover.jpg  媒体資料の表紙
+      listing_cover.jpg / dm_cover.jpg  リスティング広告・DM広告資料の表紙(送信完了ページ)
       logo.png         ロゴ(背景透過)
       ogp.jpg          SNSシェア用画像(1200×630)
       favicon.ico(フォルダ直下)/ favicon-32.png / icon-192.png / apple-touch-icon.png

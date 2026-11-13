@@ -20,13 +20,12 @@
   | 資料 | 公開URL |
   |---|---|
   | 媒体資料 | https://www.infotop.jp/html/advertishing/infotop-media.pdf(現行) |
-  | リスティング広告資料 | [URLを決めて記入] |
-  | DM広告資料 | [URLを決めて記入] |
+  | リスティング広告資料 | https://info-penguin.com/advertising_media-kit/listing_ad.pdf |
+  | DM広告資料 | https://info-penguin.com/advertising_media-kit/DM.pdf |
 
   - 推奨:現行の媒体資料PDFは約75MBあるため、画像を圧縮して軽くする
     (目安 10MB以下)。スマホからのダウンロードが楽になる。
-  - URLが決まったら、thanks.html の「▼ 資料リンク」2か所(#[…URL])と、
-    下記メール文面の [ ] を差し替える。
+  - リスティング広告・DM広告資料のURLは thanks.html・下記メール文面に反映済み。
 
 ---------------------------------------------------------------------
 2. 送信完了ページ(サンクスページ)を設定する
@@ -61,11 +60,11 @@
   ・インフォトップ媒体資料
     https://www.infotop.jp/html/advertishing/infotop-media.pdf
 
-  ・リスティング・ディスプレイ広告 運用代行のご案内
-    [リスティング広告資料のURL]
+  ・リスティング広告 資料
+    https://info-penguin.com/advertising_media-kit/listing_ad.pdf
 
-  ・郵送DM広告のご案内
-    [DM広告資料のURL]
+  ・DM広告 資料
+    https://info-penguin.com/advertising_media-kit/DM.pdf
 
   ━━━━━━━━━━━━━━━━━━━━━━━━━━
   ■ お問い合わせ内容
