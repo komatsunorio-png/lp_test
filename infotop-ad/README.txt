@@ -31,7 +31,9 @@
   - index.html の「▼▼▼ フォーム埋め込みブロック ここから」~「▲▲▲ ここまで」を
     div.lp-form ごとコピーすれば、他のページにも埋め込めます。
     必要なCSSは style.css の「lp-form」部分(.lp-form〜.lp-form__note)です。
-  - 送信先(action):https://www.infotop.jp/html/contact/mail/mail.php
+  - 送信先(action):https://www.infotop.jp/html/contact/mail/mail_utf8.php
+    現行の mail.php(EUC-JP)をコピーして UTF-8 に作り直したもの。
+    mail_utf8.php がサーバーに設置されるまでは、送信するとエラー(ページが見つからない)になります。
     現行ページ(ad_application)のフォームと同じ送信先・同じ項目名(name属性)にしています。
       お問い合わせ(hidden)/ 貴社名 / お名前 / E-Mail / 連絡先電話番号 /
       掲載したいカテゴリー / ご予算 / 自由記入欄 / 同意事項[] / 入力必須[](hidden)
