@@ -20,12 +20,15 @@
   | 資料 | 公開URL |
   |---|---|
   | 媒体資料 | https://www.infotop.jp/html/advertishing/infotop-media.pdf(現行) |
-  | リスティング広告資料 | https://info-penguin.com/advertising_media-kit/listing_ad.pdf |
   | DM広告資料 | https://info-penguin.com/advertising_media-kit/DM.pdf |
+  | Facebook広告資料 | https://info-penguin.com/advertising_media-kit/Facebook.pdf |
+  | リスティング広告資料 | https://info-penguin.com/advertising_media-kit/listing_ad.pdf |
+  | 電クロ(電話クロージング代行)資料 | https://www.info-penguin.com/serviceguide/tel_closing.pdf |
+  | まとめてダウンロード(ZIP・約110MB) | https://info-penguin.com/advertising_media-kit/all.zip |
 
   - 推奨:現行の媒体資料PDFは約75MBあるため、画像を圧縮して軽くする
     (目安 10MB以下)。スマホからのダウンロードが楽になる。
-  - リスティング広告・DM広告資料のURLは thanks.html・下記メール文面に反映済み。
+  - 各資料のURLは thanks.html・下記メール文面に反映済み。
 
 ---------------------------------------------------------------------
 2. 送信完了ページ(サンクスページ)を設定する
@@ -52,7 +55,7 @@
   誠にありがとうございます。
   以下の内容で受け付けいたしました。
 
-  内容を確認のうえ、担当営業より[○]営業日以内にご連絡いたします。
+  内容を確認のうえ、担当営業より3営業日以内にご連絡いたします。
 
   ━━━━━━━━━━━━━━━━━━━━━━━━━━
   ■ 資料のダウンロード
@@ -60,11 +63,20 @@
   ・インフォトップ媒体資料
     https://www.infotop.jp/html/advertishing/infotop-media.pdf
 
+  ・DM広告 資料
+    https://info-penguin.com/advertising_media-kit/DM.pdf
+
+  ・Facebook広告 資料
+    https://info-penguin.com/advertising_media-kit/Facebook.pdf
+
   ・リスティング広告 資料
     https://info-penguin.com/advertising_media-kit/listing_ad.pdf
 
-  ・DM広告 資料
-    https://info-penguin.com/advertising_media-kit/DM.pdf
+  ・電話クロージング代行サービス(電クロ) 資料
+    https://www.info-penguin.com/serviceguide/tel_closing.pdf
+
+  ▼すべての資料をまとめてダウンロード(ZIP・約110MB)
+    https://info-penguin.com/advertising_media-kit/all.zip
 
   ━━━━━━━━━━━━━━━━━━━━━━━━━━
   ■ お問い合わせ内容
@@ -104,4 +116,4 @@
 ---------------------------------------------------------------------
   - Gmail / Outlook / 携帯キャリアメールなど複数のアドレスで送信テストし、
     自動返信が「受信トレイ」に届くか、リンクから資料をダウンロードできるかを確認する。
-  - 送信後に thanks.html が表示され、3つのボタンからダウンロードできるかを確認する。
+  - 送信後に thanks.html が表示され、5つの資料とまとめてダウンロード(ZIP)のボタンからダウンロードできるかを確認する。

@@ -625,3 +625,43 @@ button, input, select, textarea { font: inherit; }
   .thanks__note { text-align: left; font-size: 12px; }
   .thanks__foot { flex-direction: column; align-items: stretch; gap: 12px; margin-top: 32px; }
 }
+
+/* ---------- 17. 送信完了ページ:資料5点+まとめてダウンロード ---------- */
+.doc-list { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+.doc-card { grid-column: span 2; }
+.doc-card:nth-child(4) { grid-column: 2 / span 2; }
+.doc-card__fig--wide { background: #F2F6FC; }
+.doc-card__fig--wide img { object-fit: contain; }
+.doc-bundle { position: relative; display: flex; align-items: center; gap: 56px; margin-top: 32px; padding: 44px 56px; border-radius: 36px; background: var(--navy); color: var(--white); overflow: hidden; }
+.doc-bundle::before { content: ""; position: absolute; right: -80px; top: -120px; width: 320px; height: 320px; border-radius: 50%; background: rgba(46, 155, 255, .22); }
+.doc-bundle__stack { position: relative; flex: 0 0 380px; height: 250px; }
+.doc-bundle__sheet { position: absolute; left: 50%; top: 50%; width: 250px; height: auto; border-radius: 10px; box-shadow: 0 12px 28px rgba(0, 0, 0, .35); background: var(--white); }
+.doc-bundle__sheet--1 { transform: translate(-50%, -50%) translate(-10px, 14px) rotate(-4deg); z-index: 5; }
+.doc-bundle__sheet--2 { transform: translate(-50%, -50%) translate(-60px, -30px) rotate(-12deg); z-index: 4; }
+.doc-bundle__sheet--3 { transform: translate(-50%, -50%) translate(50px, -36px) rotate(8deg); z-index: 3; }
+.doc-bundle__sheet--4 { transform: translate(-50%, -50%) translate(80px, 20px) rotate(14deg); z-index: 2; }
+.doc-bundle__sheet--5 { transform: translate(-50%, -50%) translate(-80px, 34px) rotate(-16deg); z-index: 1; }
+.doc-bundle__body { position: relative; flex: 1; min-width: 0; display: flex; flex-direction: column; align-items: flex-start; gap: 10px; }
+.doc-bundle__tag { background: var(--yellow); color: var(--navy); }
+.doc-bundle__title { font-size: 26px; font-weight: 900; line-height: 1.45; }
+.doc-bundle__text { font-size: 15px; color: #C9D6EE; }
+.doc-bundle__btn { margin-top: 10px; }
+.doc-bundle__btn .btn__arrow::after, .doc-card__btn .btn__arrow::after { transform: translateY(-2px) rotate(135deg); }
+.doc-bundle__note { font-size: 12px; color: #9FB0D3; }
+
+@media (max-width: 1200px) {
+  .doc-bundle { gap: 32px; padding: 36px 40px; }
+  .doc-bundle__stack { flex-basis: 300px; }
+  .doc-bundle__sheet { width: 200px; }
+}
+@media (max-width: 900px) {
+  .doc-list { grid-template-columns: minmax(0, 1fr); }
+  .doc-card, .doc-card:nth-child(4) { grid-column: auto; }
+  .doc-bundle { flex-direction: column; align-items: stretch; gap: 20px; margin-top: 20px; padding: 26px 20px 24px; border-radius: 24px; }
+  .doc-bundle__stack { flex: none; height: 200px; }
+  .doc-bundle__sheet { width: 170px; }
+  .doc-bundle__title { font-size: 19px; }
+  .doc-bundle__text { font-size: 13px; }
+  .doc-bundle__btn { width: 100%; font-size: 15px; }
+  .doc-bundle__note { font-size: 11px; }
+}

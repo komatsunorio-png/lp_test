@@ -3,8 +3,7 @@
 
 ■ 公開前に差し替え・確認が必要な箇所(必ず確認)
   1. 仮テキストの [ ] 部分(index.html 内を「[」で検索)
-     - [○]営業日以内 …… 「相談の流れ STEP02」「お問い合わせ見出し下」
-     - [最低出稿金額] / [○]営業日 / [回答を確認中] …… よくある質問
+     - [最低出稿金額] / [○]営業日(出稿までの目安) / [回答を確認中] …… よくある質問
      - [平日 10:00~18:00] …… お電話でのご相談の受付時間
   2. 「相談の流れ」「よくある質問」は仮テキストです。正式な文言に差し替えてください。
   3. フォームの送信先(後述「フォーム」を参照)。
@@ -15,7 +14,7 @@
 
 ■ フォルダ構成
   index.html        …… ページ本体
-  thanks.html       …… 送信完了ページ(資料ダウンロード付き・noindex)
+  thanks.html       …… 送信完了ページ(資料5点+まとめてダウンロード・noindex)
   SETUP_mailform.txt …… 送信完了ページ・自動返信メールの設定指示書(サーバー担当者向け)
   css/style.css     …… スタイル(セクションごとに見出しコメントで区切り)
   js/main.js        …… タップ時の押し下げ対応(iOS)/ PCの追従ボタン表示制御
@@ -53,7 +52,8 @@
       cta_staff.png    CTAの女性(透過PNG)
       voice_01~05.png  お客様の声のアイコン(正方形)
       media_cover.jpg  媒体資料の表紙
-      listing_cover.jpg / dm_cover.jpg  リスティング広告・DM広告資料の表紙(送信完了ページ)
+      dm_cover.jpg / facebook_cover.jpg / listing_cover.jpg / telclosing_cover.jpg
+                       DM広告・Facebook広告・リスティング広告・電クロ資料の表紙(送信完了ページ)
       logo.png         ロゴ(背景透過)
       ogp.jpg          SNSシェア用画像(1200×630)
       favicon.ico(フォルダ直下)/ favicon-32.png / icon-192.png / apple-touch-icon.png
