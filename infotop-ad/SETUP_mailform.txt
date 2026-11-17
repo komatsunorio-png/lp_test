@@ -23,7 +23,7 @@
   | DM広告資料 | https://info-penguin.com/advertising_media-kit/DM.pdf |
   | Facebook広告資料 | https://info-penguin.com/advertising_media-kit/Facebook.pdf |
   | リスティング広告資料 | https://info-penguin.com/advertising_media-kit/listing_ad.pdf |
-  | 電クロ(電話クロージング代行)資料 | https://www.info-penguin.com/serviceguide/tel_closing.pdf |
+  | 電話クロージング代行資料 | https://www.info-penguin.com/serviceguide/tel_closing.pdf |
   | まとめてダウンロード(ZIP・約110MB) | https://info-penguin.com/advertising_media-kit/all.zip |
 
   - 推奨:現行の媒体資料PDFは約75MBあるため、画像を圧縮して軽くする
@@ -72,7 +72,7 @@
   ・リスティング広告 資料
     https://info-penguin.com/advertising_media-kit/listing_ad.pdf
 
-  ・電話クロージング代行サービス(電クロ) 資料
+  ・電話クロージング代行サービス 資料
     https://www.info-penguin.com/serviceguide/tel_closing.pdf
 
   ▼すべての資料をまとめてダウンロード(ZIP・約110MB)
