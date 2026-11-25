@@ -6,16 +6,15 @@
      - [最低出稿金額] / [○]営業日(出稿までの目安) / [回答を確認中] …… よくある質問
      - [平日 10:00~18:00] …… お電話でのご相談の受付時間
   2. 「相談の流れ」「よくある質問」は仮テキストです。正式な文言に差し替えてください。
-  3. フォームの送信先(後述「フォーム」を参照)。
-  4. 資料のダウンロード(送信完了ページ thanks.html と自動返信メール)
-     - Mailform Pro の設定(サンクスページURL・自動返信の文面)は SETUP_mailform.txt を参照
-  5. canonical / og:url / og:image は GitHub Pages の確認用URLになっています。
+  3. フォーム処理 mail_utf8.php の設置と送信テスト(後述「フォーム」・SETUP_mailform.txt を参照)。
+     確認画面・送信完了ページ(thanks.html)への移動・資料リンク入りの自動返信は mail_utf8.php に実装済み。
+  4. canonical / og:url / og:image は GitHub Pages の確認用URLになっています。
      本番公開時は本番URLに書き換えてください(index.html の <head> 内)。
 
 ■ フォルダ構成
   index.html        …… ページ本体
   thanks.html       …… 送信完了ページ(資料5点+まとめてダウンロード・noindex)
-  SETUP_mailform.txt …… 送信完了ページ・自動返信メールの設定指示書(サーバー担当者向け)
+  SETUP_mailform.txt …… フォーム処理(mail_utf8.php)まわりの概要と公開前チェック(サーバー担当者向け)
   css/style.css     …… スタイル(セクションごとに見出しコメントで区切り)
   js/main.js        …… タップ時の押し下げ対応(iOS)/ PCの追従ボタン表示制御
   images/           …… 画像(ファイル名は画像台帳と同じ)
@@ -32,15 +31,14 @@
     div.lp-form ごとコピーすれば、他のページにも埋め込めます。
     必要なCSSは style.css の「lp-form」部分(.lp-form〜.lp-form__note)です。
   - 送信先(action):https://www.infotop.jp/html/contact/mail/mail_utf8.php
-    現行の mail.php(EUC-JP)をコピーして UTF-8 に作り直したもの。
+    現行の mail.php(EUC-JP・複数フォーム兼用)をもとに、このLP専用に UTF-8 で作り直したもの。
+    ※ボット対策の秘密鍵を含むため、このフォルダ(公開リポジトリ)には入れず別途お渡ししています。
     mail_utf8.php がサーバーに設置されるまでは、送信するとエラー(ページが見つからない)になります。
     現行ページ(ad_application)のフォームと同じ送信先・同じ項目名(name属性)にしています。
       お問い合わせ(hidden)/ 貴社名 / お名前 / E-Mail / 連絡先電話番号 /
       掲載したいカテゴリー / ご予算 / 自由記入欄 / 同意事項[] / 入力必須[](hidden)
-  - 現行フォームは Mailform Pro(確認画面・自動返信など)で動いています。
-    本番では、現行ページで読み込んでいる Mailform Pro のスクリプト
-    (mfp.statics など)を同じように読み込み、送信テストを行ってください。
-    GitHub Pages など別ドメインからの送信は、送信先側の設定によって拒否されることがあります。
+  - 送信の流れ:LPのフォーム → 確認画面(mail_utf8.php・LPデザイン/認証あり)→ 送信 → thanks.html
+  - mail_utf8.php は infotop.jp 以外のページからの送信を拒否します(GitHub Pages の確認用ページからは送信されません)。
   - カテゴリーに「その他」を追加しています。
   - 入力必須は「お名前・メールアドレス・電話番号・同意」です(HTMLの required 属性)。
 
